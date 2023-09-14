@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>MCG</title>
+    <title>Coming Soon</title>
     <style>
         body {
             background-color: blue;
         }
-        .coming-soon {
+        
+        #gif {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        
+        #text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
             color: white;
-            text-align: center;
-            font-size: 69px;
-            margin-top: 200px;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <div class="coming-soon">
+    <div id="gif">
         <img src="https://imgs.search.brave.com/oWkJJOJ6nVpS46T6dKUZwMXG9bwrzKdNbp3vzQA-zv8/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/YlVQYm4xN2UxQWNB/QUFBaS9taW5lY3Jh/ZnQtc25pZmZlci5n/aWY.gif" alt="Coming Soon">
-        <p>COMING SOON</p>
+    </div>
+    <div id="text">
+        COMING SOON
     </div>
 </body>
 </html>
